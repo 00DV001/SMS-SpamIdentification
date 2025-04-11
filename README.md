@@ -23,7 +23,7 @@ The app uses a merged dataset of SMS messages with labels spam and ham. Example 
 
 Installation & Setup
 1 Clone the repository
-  git clone https://github.com/your-username/spam-detector-app.git
+  git clone [https://github.com/your-username/spam-detector-app.git](https://github.com/00DV001/SMS-SpamIdentification.git)
   cd spam-detector-app
 2 Create a virtual environment (optional but recommended)
 	python -m venv venv
