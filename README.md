@@ -42,7 +42,7 @@ How It Works
 
 Model Performance:
 1. Metric      Score
-2. Accuracy    About 83%
+2. Accuracy    ~83%
 
 File Structure
 1. app.py                  # Main Streamlit app
