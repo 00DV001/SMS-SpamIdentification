@@ -1,27 +1,24 @@
 import streamlit as st
-import pandas as pd
 import re
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
 import joblib
 
-# Load the saved model and vectorizer
+# load the saved model and vectorizer
 model = joblib.load("spam_classifier_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
-# Preprocessing function
+# preprocessing function
 def preprocess_text(text):
     text = text.lower()
     text = re.sub(r'[^\w\s]', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-# Streamlit UI
+# streamlit UI
 st.set_page_config(page_title="SMS Spam Classifier", layout="centered")
 st.title("📱 SMS Spam Detection")
 st.write("Enter an SMS message below to check if it's spam or not.")
 
-# Input box
+# input box
 user_input = st.text_area("Enter SMS text:")
 
 if st.button("Predict"):
