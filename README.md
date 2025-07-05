@@ -42,9 +42,7 @@ How It Works
 
 Model Performance:
 1. Metric      Score
-2. Accuracy    83%
-3. Precision   0.89 (ham), 0.77 (spam)
-4. Recall      0.80 (ham), 0.87 (spam)
+2. Accuracy    About 83%
 
 File Structure
 1. app.py                  # Main Streamlit app
@@ -53,5 +51,4 @@ File Structure
 4. README.md               # Project documentation
 
 Contact
-1. Made by Devansh Vats
-2. GitHub: @00DV001
+1. Made by Devansh Vats, Shubham Nailwal and Kunaal Kaushal Singh
